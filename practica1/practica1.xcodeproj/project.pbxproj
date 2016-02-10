@@ -12,7 +12,7 @@
 		EEB1DB7B1C6B02040011A87C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB1DB791C6B02040011A87C /* Main.storyboard */; };
 		EEB1DB7D1C6B02040011A87C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB1DB7C1C6B02040011A87C /* Assets.xcassets */; };
 		EEB1DB801C6B02040011A87C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB1DB7E1C6B02040011A87C /* LaunchScreen.storyboard */; };
-		EEB1DB8B1C6B02040011A87C /* practica1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1DB8A1C6B02040011A87C /* practica1Tests.swift */; };
+		EEB1DB8B1C6B02040011A87C /* practica1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1DB8A1C6B02040011A87C /* practica1.swift */; };
 		EEB1DB961C6B02040011A87C /* practica1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1DB951C6B02040011A87C /* practica1UITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +42,7 @@
 		EEB1DB7F1C6B02040011A87C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEB1DB811C6B02040011A87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEB1DB861C6B02040011A87C /* practica1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practica1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEB1DB8A1C6B02040011A87C /* practica1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica1Tests.swift; sourceTree = "<group>"; };
+		EEB1DB8A1C6B02040011A87C /* practica1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica1.swift; sourceTree = "<group>"; };
 		EEB1DB8C1C6B02040011A87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEB1DB911C6B02040011A87C /* practica1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practica1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB1DB951C6B02040011A87C /* practica1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica1UITests.swift; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		EEB1DB891C6B02040011A87C /* practica1Tests */ = {
 			isa = PBXGroup;
 			children = (
-				EEB1DB8A1C6B02040011A87C /* practica1Tests.swift */,
+				EEB1DB8A1C6B02040011A87C /* practica1.swift */,
 				EEB1DB8C1C6B02040011A87C /* Info.plist */,
 			);
 			path = practica1Tests;
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEB1DB8B1C6B02040011A87C /* practica1Tests.swift in Sources */,
+				EEB1DB8B1C6B02040011A87C /* practica1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +482,7 @@
 				EEB1DB9C1C6B02040011A87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEB1DB9D1C6B02040011A87C /* Build configuration list for PBXNativeTarget "practica1Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +491,7 @@
 				EEB1DB9F1C6B02040011A87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEB1DBA01C6B02040011A87C /* Build configuration list for PBXNativeTarget "practica1UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +500,7 @@
 				EEB1DBA21C6B02040011A87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
